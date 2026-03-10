@@ -6,6 +6,6 @@ from .views import (
 
 urlpatterns = [
     path("semantic-search/", SemanticSearchAPIView.as_view(), name="semantic-search"),
-    path("git add README.md", SimilarProductsAPIView.as_view(), name="similar-products"),
+    path("wsimilar-search/", SimilarProductsAPIView.as_view(), name="similar-products"),
     
 ]
